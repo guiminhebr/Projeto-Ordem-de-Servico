@@ -44,8 +44,8 @@ public class ModuloConexao {
         String driver = "com.mysql.cj.jdbc.Driver";
         //armazenando informações referente ao banco.
         String url = "jdbc:mysql://localhost:3306/dbinfox?characterEncoding=utf-8";
-        String user = "dba";
-        String password = "guiminhados7!";
+        String user = ""; //insira o usuario do mysq
+        String password = ""; //insira a senha do mysql
         //criei quatro variaveis. uma fala qual é o drive e o tipo de bd, outro o caminho e nome do bd, outro o usuario , o outro a senha
         //estabelecendo a conexão com o banco.
         //tratamento de exceções. entre o java e o bd, tem a estrutura da rede. tem um caminho pro formulario chegar até i bd. pode ter muitos imprevistos, tipo queimar uma porta de o switch. por isso temos que dar tratamento de exceções.
